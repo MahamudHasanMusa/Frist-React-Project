@@ -51,3 +51,35 @@
     color: white;
     cursor: pointer;
   }
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+  @media (max-width:500px) {
+
+    .products {
+      grid-template-columns: 1fr ;
+    }
+  }
+
